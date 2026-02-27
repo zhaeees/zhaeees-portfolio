@@ -1,19 +1,19 @@
 @font-face {
   font-family: 'Pinkfong Baby Shark';
-  src: url('./fonts/Pinkfong-Baby-Shark-Font_Bold.woff2') format('truetype');
-  font-weight: bold;
+  src: url('./fonts/Pinkfong-Baby-Shark-Font_Bold.woff2') format("woff2");
+  font-weight: 700;
   font-style: normal;
 };
 @font-face {
   font-family: 'Pinkfong Baby Shark';
-  src: url('./fonts/Pinkfong-Baby-Shark-Font_Light.woff2') format('truetype');
-  font-weight: lighter;
+  src: url('./fonts/Pinkfong-Baby-Shark-Font_Light.woff2') format("woff2");
+  font-weight: 300;
   font-style: normal;
 };
 @font-face {
   font-family: 'Pinkfong Baby Shark';
   src: url('./fonts//Pinkfong-Baby-Shark-Font_Regular.woff2') format('truetype');
-  font-weight: normal;
+  font-weight: 500;
   font-style: normal;
 };
 @import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE.woff2');
@@ -90,4 +90,5 @@ section {
   }
 
 }
+
 
