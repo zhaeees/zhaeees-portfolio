@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choijihye 포트폴리오입니다</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="scss/style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="inner">
+      <div class="logo"><a href="#"><img src="images/logo.png" alt="로고이미지"></a></div>
+      <nav class="nav">
+        <ul>
+          <li><svg width="14" height="20" viewBox="0 0 18 32" fill="none">
+              <path
+                d="M14.8981 2.50027C13.1767 3.68356 11.434 5.21709 9.66744 7.09969C7.90334 8.98342 5.51186 11.8565 2.50006 15.7232C5.8539 18.9968 8.14707 21.413 9.38165 22.9736C10.6169 24.5331 11.8831 26.6167 13.1816 29.2221"
+                stroke="black" stroke-opacity="0.9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#contact">contact</a></li>
+          <li><svg width="14" height="20" viewBox="0 0 16 29" fill="none">
+              <path
+                d="M2.50009 2.50024C4.00627 3.53561 5.53113 4.87746 7.07688 6.52473C8.62047 8.173 10.713 10.687 13.3483 14.0703C10.4137 16.9347 8.40721 19.0489 7.32695 20.4144C6.24614 21.779 5.13816 23.6021 4.00195 25.8818"
+                stroke="black" stroke-opacity="0.9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- main -->
+  <main>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-inner">
+
+        <!-- 왼쪽 : 일러스트 영역 -->
+        <div class="hero-image"  data-aos="zoom-in" data-aos-duration="1200"
+          data-aos-easing="ease-out-cubic">
+          <div class="image-wrap">
+            <img src="images/profile-character.png" alt="캐릭터 일러스트">
+          </div>
+        </div>
+
+        <!-- 오른쪽 : 텍스트 영역 -->
+        <div class="hero-text">
+          <p class="hello"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1200"
+          data-aos-delay="300" data-aos-easing="ease-out-cubic">HELLO!</p>
+
+          <div class="typing-wrap" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1200"
+          data-aos-delay="500" data-aos-easing="ease-out-cubic">
+            <h1>I'm a</h1>
+            <div class="typing">
+              <span id="typing-text"></span>
+              <span class="cursor">|</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 스크롤 유도 -->
+      <div class="scroll-indicator mb">↓</div>
+
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+      <div class="inner about-wrap">
+
+        <!-- Profile -->
+        <article class="about-profile" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1200"
+          data-aos-delay="600" data-aos-easing="ease-out-cubic">
+          <div class="profile-card" >
+            <div class="profile-img">
+              <img src="images/profile.png" class="pc" alt="">
+              <img src="images/profile-mb.png" class="mb" alt="">
+            </div>
+
+            <div class="profile-info-wrap mb">
+              <div class="mobile-name">Choi Ji Hye</div>
+              <ul class="profile-info ">
+                <li>
+                  <img src="images/mbti.svg" alt="">
+                  <span>ISFJ</span>
+                </li>
+                <li>
+                  <img src="images/local.svg" alt="">
+                  <span>대전</span>
+                </li>
+                <li>
+                  <img src="images/mail.svg" alt="">
+                  <span>yellopado@gmail.com</span>
+                </li>
+                <li>
+                  <img src="images/git.svg" alt="">
+                  <a href="https://github.com/zhaeees" target="_blank">
+                    GitHub
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- Introduce -->
+        <article class="about-introduce" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1200"
+          data-aos-delay="750" data-aos-easing="ease-out-cubic">
+          <h3 class="section-title" >INTRODUCE</h3>
+          <p>
+            구조와 완성도를 고민하는 프론트엔드 개발자입니다.
+            화면 구성과 사용자의 흐름을 함께 고민하며
+            UI를 구현합니다. <br>
+            설계단계에서부터 흐름과 일관성을 고려하며
+            작은요소까지 책임감을 가지고 작업합니다.
+          </p>
+          <ul class="profile-info pc">
+            <li><a href="#none">
+                <svg width="42" height="27" viewBox="0 0 42 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M1.5 21.5246C2.04256 14.3315 2.04256 8.13085 1.5 2.92249C25.7014 1.35778 38.4395 1.08393 39.714 2.10095C40.7649 2.94067 40.3633 24.4858 39.1346 24.4858C28.0623 24.4858 15.9023 23.8963 4.89394 25.1983"
+                    stroke="#148992" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                  <path opacity="0.503384" d="M16.2563 11.6582C11.9984 13.9484 9.54866 18.7842 5.7168 21.5245"
+                    stroke="#179999" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                  <path opacity="0.503384" d="M26.5977 11.6582C29.7554 14.5607 33.3525 16.5914 36.7393 20.2649"
+                    stroke="#179999" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M2.93359 3.46883C25.2576 17.1519 17.3397 16.1585 38.3302 3.26172" stroke="#148A92"
+                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+                <span>yellowpado@gmail.com</span>
+              </a></li>
+            <li><a href="https://github.com/zhaeees" target="_blank">
+                <svg width="36" height="35" viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M5.85092 1.53916C5.02017 3.19361 5.50478 6.22678 5.85092 7.53656C0.451087 13.9476 5.02012 19.3246 6.68162 21.1858C8.01082 22.6749 11.8046 23.5986 13.5353 23.8743C12.8707 24.3707 12.4277 26.0113 12.2893 26.7696C10.8356 27.1833 8.34312 26.9764 7.51237 25.1152C6.84777 23.6262 5.98933 22.8403 5.64318 22.6335C3.5663 21.5995 2.11262 22.2199 1.69724 22.4267C1.36494 22.5921 1.51392 23.0079 1.69724 23.0471C2.96758 23.0471 4.42139 24.6624 4.81256 25.5288C5.04446 26.0424 5.47716 27.3901 6.47406 29.0445C7.47097 30.699 10.7663 30.5611 12.2893 30.2854L12.497 32.5602C12.8293 33.8838 21.4968 33.5253 25.789 33.1807C25.8583 32.6292 25.9552 30.9058 25.789 28.4241C25.6229 25.9424 24.6121 24.219 24.1275 23.6675C26.1352 24.3569 32.0196 21.8063 33.2658 18.7042C35.5592 12.9957 33.0581 8.91528 31.3966 7.53656C32.2274 4.72397 31.4659 2.36638 30.9812 1.53916C29.3197 1.20827 25.9967 3.05574 24.5429 4.02084C20.7215 2.20094 15.197 3.26255 12.9124 4.02084C10.9186 2.03549 7.37399 1.53916 5.85092 1.53916Z"
+                    stroke="#148992" stroke-width="3" stroke-linejoin="round" />
+                </svg>
+
+
+                <span>GitHub</span>
+              </a></li>
+          </ul>
+        </article>
+
+        <!-- History -->
+        <article class="about-history" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1200"
+          data-aos-delay="900" data-aos-easing="ease-out-cubic">
+          <h3 class="section-title">EDUCATION <br> & WORK EXPERIENCE</h3>
+          <ul>
+            <li>
+              <p>2025 - 현재</p>
+              <p class="draw">프론트엔드 교육
+                <svg width="178" height="10" viewBox="0 0 178 10" fill="none" class="wave">
+                  <path class="wave-path"
+                    d="M1 7.19971C4.14624 6.31991 8.22925 4.84768 11.3187 3.88609C16.1248 2.39019 22.4735 5.83241 25 6.5C27.5914 7.18474 33.1665 9.2339 39 8.5C41.7735 8.15107 45.7727 7.58964 49.5 5.8778C52.5 4.5 54.5425 1.81781 60 2.5C64 3 65.6469 6.89907 69.2733 7.27266C73.3577 7.69342 80.9286 7.05823 83.8667 5.8778C88.5441 3.99852 95.6142 2.19501 98.214 1.74848C103.306 0.873868 109.013 1.88553 112.091 3.80208C116.211 6.36781 118.636 6.60728 122.097 7.12455C130.993 8.45413 136.425 4.27293 140.09 2.34091C142.544 1.04673 149.512 0.56804 153.337 1.44784C155.468 1.93797 157.12 3.36218 159.014 4.54262C160.909 5.57716 169.667 5.87338 175.1 3.81977C176.5 3.29082 177 2.33649 177 2.33649"
+                    stroke="#148A92" stroke-width="2" stroke-linecap="round" />
+                </svg>
+
+                <img src="images/draw02.svg" class="star" alt="별">
+              </p>
+
+            </li>
+            <li>
+              <p>2019 - 2025</p>
+              <p>미술학원 전임 강사</p>
+            </li>
+            <li>
+              <p>2013 - 2017</p>
+              <p>중앙대학교 서양화과</p>
+            </li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Draw -->
+    <div class="scribble-wrap">
+      <!-- LINE SVG -->
+      <svg class="scribble" width="1360" height="224" viewBox="0 0 1382 224" fill="none">
+        <path class="scribble__path"
+          d="M0 177.531H982C1001.67 178.531 1040.4 186.331 1038 209.531C1036.21 226.878 1016 225.378 1009.5 209.531C1003 193.685 1000.9 141.731 1026.5 106.531C1052.1 71.3312 1094.5 60.8645 1112.5 60.0312C1135.83 59.0312 1183.9 69.6312 1189.5 120.031C1190.5 136.878 1175.8 158.731 1149 135.531C1122.2 112.331 1153.17 57.1979 1172 32.5312C1195 4.3776 1251.3 -20.2688 1274.5 32.5312C1279.5 48.3776 1267.5 87.3776 1250.5 113.031C1240 126.878 1222.3 151.431 1245.5 169.031C1268.7 186.631 1291.5 159.031 1300 143.031C1312.5 121.865 1343 90.1312 1365 132.531C1374 151.378 1365.5 189.431 1381.5 191.031"
+          stroke="#3B3B3B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+
+      <!-- MAGIC ICON SVG (처음엔 숨김) -->
+      <div class="scribble-icon" aria-hidden="true">
+        <!-- 너가 준 SVG 그대로 붙여넣기 -->
+        <svg width="128" height="123" viewBox="0 0 128 123" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M31.8791 30.8017C29.3118 33.2823 29.3118 37.21 31.8791 39.484L59.6921 66.3579L59.9059 66.1513L68.6777 57.6756L68.4639 57.4689L40.865 30.8017C38.5115 28.321 34.4464 28.321 31.8791 30.8017Z"
+            fill="url(#paint0_linear_193_2)" />
+          <path
+            d="M59.6939 66.3581L115.319 120.106C117.887 122.587 121.951 122.587 124.305 120.106C126.872 117.625 126.872 113.698 124.305 111.424L68.6795 57.6758L59.9077 66.1515L59.6939 66.3581Z"
+            fill="#ECF4F7" />
+          <path
+            d="M77.0208 18.605C75.8393 18.605 74.8814 17.6795 74.8814 16.5378C74.8814 15.3962 75.8393 14.4707 77.0208 14.4707C78.2023 14.4707 79.1602 15.3962 79.1602 16.5378C79.1602 17.6795 78.2023 18.605 77.0208 18.605Z"
+            fill="#FFD0A1" />
+          <path
+            d="M17.1165 45.479C15.935 45.479 14.9771 44.5535 14.9771 43.4119C14.9771 42.2702 15.935 41.3447 17.1165 41.3447C18.298 41.3447 19.2559 42.2702 19.2559 43.4119C19.2559 44.5535 18.298 45.479 17.1165 45.479Z"
+            fill="#7EE1E6" />
+          <path
+            d="M27.8138 4.13429C26.6322 4.13429 25.6744 3.2088 25.6744 2.06715C25.6744 0.925493 26.6322 0 27.8138 0C28.9953 0 29.9531 0.925493 29.9531 2.06715C29.9531 3.2088 28.9953 4.13429 27.8138 4.13429Z"
+            fill="#7EE1E6" />
+          <path
+            d="M2.13993 31.0086C0.958392 31.0086 0.00056982 30.0831 0.00056982 28.9414C0.00056982 27.7998 0.958392 26.8743 2.13993 26.8743C3.32147 26.8743 4.2793 27.7998 4.2793 28.9414C4.2793 30.0831 3.32147 31.0086 2.13993 31.0086Z"
+            fill="#C49AE9" />
+          <path
+            d="M85.5794 45.479C84.3979 45.479 83.44 44.5535 83.44 43.4119C83.44 42.2702 84.3979 41.3447 85.5794 41.3447C86.7609 41.3447 87.7188 42.2702 87.7188 43.4119C87.7188 44.5535 86.7609 45.479 85.5794 45.479Z"
+            fill="#C49AE9" />
+          <path
+            d="M119.811 123C121.736 123 123.662 122.38 125.159 120.933C126.657 119.486 127.299 117.832 127.299 115.765C127.299 113.698 126.443 112.044 125.159 110.597L69.5338 56.8489C69.3199 56.6422 69.1058 56.6422 68.6781 56.6422C68.4642 56.6422 68.0363 56.8489 67.8224 56.8489L64.3994 60.1563C63.9714 60.5699 63.9714 61.19 64.3994 61.6033C64.8273 62.0168 65.4692 62.0168 65.8969 61.6033L68.6781 58.916L123.448 111.837C124.518 112.871 124.945 114.111 124.945 115.558C124.945 117.005 124.304 118.246 123.448 119.279C121.308 121.346 117.885 121.346 115.96 119.279L32.5213 38.6573C31.4515 37.6236 31.0238 36.3833 31.0238 34.9363C31.0238 33.4893 31.6656 32.249 32.5213 31.2153C34.6607 29.1482 38.0839 29.1482 40.0094 31.2153L61.6179 52.0944C62.0459 52.5079 62.6877 52.5079 63.1155 52.0944C63.5432 51.6809 63.5434 51.0607 63.1155 50.6474L41.507 29.7683C38.5117 26.8741 33.805 26.8741 31.0238 29.7683C29.5262 31.2153 28.8844 32.8692 28.8844 34.9363C28.8844 37.0035 29.7401 38.6573 31.0238 40.1043L114.462 120.726C115.96 122.38 117.885 123 119.811 123ZM47.0696 83.7227C47.7114 83.7227 48.1394 83.3092 48.1394 82.689V81.6554H49.2092C49.8511 81.6554 50.279 81.2418 50.279 80.6217C50.279 80.0015 49.8511 79.588 49.2092 79.588H48.1394V78.5543C48.1394 77.9341 47.7114 77.5206 47.0696 77.5206C46.4278 77.5206 45.9998 77.9341 45.9998 78.5543V79.588H44.93C44.2882 79.588 43.8602 80.0015 43.8602 80.6217C43.8602 81.2418 44.2882 81.6554 44.93 81.6554H45.9998V82.689C45.9998 83.3092 46.4278 83.7227 47.0696 83.7227ZM6.42022 77.5211C7.06205 77.5211 7.49003 77.1075 7.49003 76.4874V73.3865H10.6992C11.341 73.3865 11.769 72.973 11.769 72.3528C11.769 71.7326 11.341 71.3191 10.6992 71.3191H7.49003V68.2183C7.49003 67.5981 7.06205 67.1846 6.42022 67.1846C5.77839 67.1846 5.35041 67.5981 5.35041 68.2183V71.3191H2.14124C1.4994 71.3191 1.07144 71.7326 1.07144 72.3528C1.07144 72.973 1.4994 73.3865 2.14124 73.3865H5.35041V76.4874C5.35041 77.1075 5.77839 77.5211 6.42022 77.5211ZM36.3723 69.2522C37.0141 69.2522 37.4421 68.8387 37.4421 68.2185V57.8823C37.4421 57.2621 37.0141 56.8486 36.3723 56.8486C35.7305 56.8486 35.3025 57.2621 35.3025 57.8823V68.2185C35.3027 68.8387 35.7305 69.2522 36.3723 69.2522ZM17.1173 54.7815C17.3311 54.7815 17.7591 54.7815 17.973 54.5748L25.0331 47.753C25.4611 47.3394 25.4611 46.7193 25.0331 46.306C24.6052 45.8925 23.9633 45.8925 23.5356 46.306L16.4754 53.1278C16.0475 53.5414 16.0475 54.1615 16.4754 54.5748C16.4754 54.7815 16.9034 54.7815 17.1173 54.7815ZM2.14124 36.1764H19.2569C19.8987 36.1764 20.3267 35.7629 20.3267 35.1427C20.3267 34.5225 19.8987 34.109 19.2569 34.109H2.14124C1.4994 34.109 1.07144 34.5225 1.07144 35.1427C1.07144 35.7631 1.4994 36.1764 2.14124 36.1764ZM59.9063 36.1764H70.6036C71.2454 36.1764 71.6734 35.7629 71.6734 35.1427C71.6734 34.5225 71.2454 34.109 70.6036 34.109H59.9063C59.2645 34.109 58.8365 34.5225 58.8365 35.1427C58.8365 35.7631 59.2645 36.1764 59.9063 36.1764ZM91.998 36.1764C92.6398 36.1764 93.0678 35.7629 93.0678 35.1427V32.0419H96.2769C96.9188 32.0419 97.3468 31.6283 97.3468 31.0082C97.3468 30.388 96.9188 29.9745 96.2769 29.9745H93.0678V26.8736C93.0678 26.2535 92.6398 25.8399 91.998 25.8399C91.3561 25.8399 90.9282 26.2535 90.9282 26.8736V29.9745H87.719C87.0772 29.9745 86.6492 30.388 86.6492 31.0082C86.6492 31.6283 87.0772 32.0419 87.719 32.0419H90.9282V35.1427C90.9282 35.7631 91.3561 36.1764 91.998 36.1764ZM24.1775 24.3932C24.3913 24.3932 24.8193 24.3932 25.0331 24.1866C25.4611 23.773 25.4611 23.1529 25.0331 22.7396L17.973 15.9177C17.545 15.5042 16.9032 15.5042 16.4754 15.9177C16.0475 16.3313 16.0475 16.9514 16.4754 17.3647L23.5356 24.1866C23.7497 24.3932 23.9636 24.3932 24.1775 24.3932ZM48.5671 24.3932C48.781 24.3932 49.209 24.3932 49.4228 24.1866L56.483 17.3647C56.911 16.9512 56.911 16.331 56.483 15.9177C56.055 15.5042 55.4132 15.5042 54.9855 15.9177L47.9253 22.7396C47.4973 23.1531 47.4973 23.7733 47.9253 24.1866C47.9253 24.3932 48.1394 24.3932 48.5671 24.3932ZM36.3723 19.6387C37.0141 19.6387 37.4421 19.2252 37.4421 18.605V2.06714C37.4421 1.44697 37.0141 1.03345 36.3723 1.03345C35.7305 1.03345 35.3025 1.44697 35.3025 2.06714V18.605C35.3027 19.2252 35.7305 19.6387 36.3723 19.6387ZM4.2806 17.5714C4.92243 17.5714 5.35041 17.1578 5.35041 16.5377V15.5042H6.42022C7.06205 15.5042 7.49003 15.0907 7.49003 14.4705C7.49003 13.8503 7.06205 13.4368 6.42022 13.4368H5.35041V12.4034C5.35041 11.7832 4.92243 11.3697 4.2806 11.3697C3.63877 11.3697 3.2108 11.7832 3.2108 12.4034V13.4371H2.141C1.49917 13.4371 1.07119 13.8506 1.07119 14.4708C1.07119 15.0909 1.49917 15.5044 2.141 15.5044H3.2108V16.5381C3.21105 17.1581 3.63877 17.5714 4.2806 17.5714ZM70.6036 9.30252C71.2454 9.30252 71.6734 8.889 71.6734 8.26883V7.23513H72.743C73.3848 7.23513 73.8128 6.82161 73.8128 6.20144C73.8128 5.58127 73.3848 5.16774 72.743 5.16774H71.6732V4.13405C71.6732 3.51388 71.2452 3.10035 70.6033 3.10035C69.9615 3.10035 69.5335 3.51388 69.5335 4.13405V5.16774H68.4637C67.8219 5.16774 67.3939 5.58127 67.3939 6.20144C67.3939 6.82161 67.8219 7.23513 68.4637 7.23513H69.5338V8.26883C69.5338 8.889 69.9618 9.30252 70.6036 9.30252Z"
+            fill="#51565F" />
+          <defs>
+            <linearGradient id="paint0_linear_193_2" x1="49.3157" y1="66.3579" x2="49.3157" y2="28.9412"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#148A92" />
+              <stop offset="1" stop-color="#7EE1E6" />
+            </linearGradient>
+          </defs>
+        </svg>
+
+
+
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <section id="skills" class="skills">
+      <div class="inner">
+        <h3 class="section-title" data-aos="zoom-in" data-aos-duration="1200"
+          data-aos-easing="ease-out-cubic">SKILLS</h3>
+
+        <div class="skills-grid">
+
+          <div class="skill-group" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1200"
+          data-aos-delay="300" data-aos-easing="ease-out-cubic">
+            <h4>Markup & Styling</h4>
+            <ul>
+              <li class="skill-item" >
+                <div class="circle-wrap">
+                  <svg class="ring" viewBox="0 0 120 120">
+                    <circle class="bg" cx="60" cy="60" r="52" />
+                    <circle class="progress" cx="60" cy="60" r="52" style="--percent:95" />
+                  </svg>
+                  <img src="images/skill-icon01.png" alt="HTML">
+                </div>
+                <span>HTML</span>
+              </li>
+
+              <li class="skill-item">
+                <div class="circle-wrap">
+                  <svg class="ring" viewBox="0 0 120 120">
+                    <circle class="bg" cx="60" cy="60" r="52" />
+                    <circle class="progress" cx="60" cy="60" r="52" style="--percent:80" />
+                  </svg>
+                  <img src="images/skill-icon02.png" alt="CSS">
+                </div>
+                <span>CSS</span>
+              </li>
+
+              <li class="skill-item">
+                <div class="circle-wrap">
+                  <svg class="ring" viewBox="0 0 120 120">
+                    <circle class="bg" cx="60" cy="60" r="52" />
+                    <circle class="progress" cx="60" cy="60" r="52" style="--percent:85" />
+                  </svg>
+                  <img src="images/skill-icon03.png" alt="SCSS">
+                </div>
+                <span>SCSS</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-group" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1200"
+          data-aos-delay="400" data-aos-easing="ease-out-cubic">
+            <h4>Frontend Development</h4>
+            <ul>
+              <li class="skill-item">
+                <div class="circle-wrap">
+                  <svg class="ring" viewBox="0 0 120 120">
+                    <circle class="bg" cx="60" cy="60" r="52" />
+                    <circle class="progress" cx="60" cy="60" r="52" style="--percent:50" />
+                  </svg>
+                  <img src="images/skill-icon04.png" alt="JavaScript">
+                </div>
+                <span>JavaScript</span>
+              </li>
+
+              <li class="skill-item">
+                <div class="circle-wrap">
+                  <svg class="ring" viewBox="0 0 120 120">
+                    <circle class="bg" cx="60" cy="60" r="52" />
+                    <circle class="progress" cx="60" cy="60" r="52" style="--percent:35" />
+                  </svg>
+                  <img src="images/skill-icon05.png" alt="React">
+                </div>
+                <span>React</span>
+              </li>
+
+              <li class="skill-item">
+                <div class="circle-wrap">
+                  <svg class="ring" viewBox="0 0 120 120">
+                    <circle class="bg" cx="60" cy="60" r="52" />
+                    <circle class="progress" cx="60" cy="60" r="52" style="--percent:55" />
+                  </svg>
+                  <img src="images/skill-icon06.png" alt="API">
+                </div>
+                <span>API</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-group" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1200"
+          data-aos-delay="500" data-aos-easing="ease-out-cubic">
+            <h4>UI Framework & Library</h4>
+            <ul>
+              <li class="skill-item">
+                <div class="circle-wrap">
+                  <svg class="ring" viewBox="0 0 120 120">
+                    <circle class="bg" cx="60" cy="60" r="52" />
+                    <circle class="progress" cx="60" cy="60" r="52" style="--percent:35" />
+                  </svg>
+                  <img src="images/skill-icon07.png" alt="Bootstrap">
+                </div>
+                <span>Bootstrap</span>
+              </li>
+
+              <li class="skill-item">
+                <div class="circle-wrap">
+                  <svg class="ring" viewBox="0 0 120 120">
+                    <circle class="bg" cx="60" cy="60" r="52" />
+                    <circle class="progress" cx="60" cy="60" r="52" style="--percent:65" />
+                  </svg>
+                  <img src="images/skill-icon08.png" alt="Swiper">
+                </div>
+                <span>Swiper</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-group" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1200"
+          data-aos-delay="600" data-aos-easing="ease-out-cubic">
+            <h4>Development Tools</h4>
+            <ul>
+              <li class="skill-item">
+                <div class="circle-wrap">
+                  <svg class="ring" viewBox="0 0 120 120">
+                    <circle class="bg" cx="60" cy="60" r="52" />
+                    <circle class="progress" cx="60" cy="60" r="52" style="--percent:80" />
+                  </svg>
+                  <img src="images/skill-icon09.png" alt="VSCode">
+                </div>
+                <span>VSCode</span>
+              </li>
+
+              <li class="skill-item">
+                <div class="circle-wrap">
+                  <svg class="ring" viewBox="0 0 120 120">
+                    <circle class="bg" cx="60" cy="60" r="52" />
+                    <circle class="progress" cx="60" cy="60" r="52" style="--percent:65" />
+                  </svg>
+                  <img src="images/skill-icon10.png" alt="Git">
+                </div>
+                <span>Git</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-group" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1200"
+          data-aos-delay="700" data-aos-easing="ease-out-cubic">
+            <h4>Design Tools</h4>
+            <ul>
+              <li class="skill-item">
+                <div class="circle-wrap">
+                  <svg class="ring" viewBox="0 0 120 120">
+                    <circle class="bg" cx="60" cy="60" r="52" />
+                    <circle class="progress" cx="60" cy="60" r="52" style="--percent:90" />
+                  </svg>
+                  <img src="images/skill-icon11.png" alt="Figma">
+                </div>
+                <span>Figma</span>
+              </li>
+
+              <li class="skill-item">
+                <div class="circle-wrap">
+                  <svg class="ring" viewBox="0 0 120 120">
+                    <circle class="bg" cx="60" cy="60" r="52" />
+                    <circle class="progress" cx="60" cy="60" r="52" style="--percent:55" />
+                  </svg>
+                  <img src="images/skill-icon12.png" alt="Photoshop">
+                </div>
+                <span>Photoshop</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-group" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1200"
+          data-aos-delay="800" data-aos-easing="ease-out-cubic">
+            <h4>AI Assisted Workflow</h4>
+            <ul>
+              <li class="skill-item">
+                <div class="circle-wrap">
+                  <svg class="ring" viewBox="0 0 120 120">
+                    <circle class="bg" cx="60" cy="60" r="52" />
+                    <circle class="progress" cx="60" cy="60" r="52" style="--percent:95" />
+                  </svg>
+                  <img src="images/skill-icon13.png" alt="AI">
+                </div>
+                <span>AI</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+      <div class="inner">
+        <h3 class="section-title" data-aos="zoom-in" data-aos-duration="1200"
+          data-aos-easing="ease-out-cubic">PROJECTS</h3>
+
+          <!-- pc용 -->
+        <div class="filter-checks pc" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1200"
+         data-aos-delay="400"  data-aos-easing="ease-out-cubic">
+
+          <div class="filter-wrap" >
+            <label class="c-check">
+              <input type="radio" name="all" value="all" checked>
+              <span class="c-check__txt">ALL</span>
+            </label>
+          </div>
+
+          <div class="filter-wrap">
+            <!-- 언어 -->
+            <label class="c-check">
+              <input type="radio" name="tagLang" value="css">
+              <span class="c-check__txt">CSS</span>
+            </label>
+
+            <label class="c-check">
+              <input type="radio" name="tagLang" value="scss">
+              <span class="c-check__txt">SCSS</span>
+            </label>
+
+            <!-- 기술 -->
+            <label class="c-check">
+              <input type="radio" name="tagTech" value="js">
+              <span class="c-check__txt">JavaScript</span>
+            </label>
+
+            <label class="c-check">
+              <input type="radio" name="tagTech" value="react">
+              <span class="c-check__txt">React</span>
+            </label>
+
+
+            <!-- 기타 -->
+            <label class="c-check">
+              <input type="radio" name="etc" value="responsive">
+              <span class="c-check__txt">반응형</span>
+            </label>
+          </div>
+
+
+          <div class="filter-wrap">
+            <!-- 타입 -->
+            <label class="c-check">
+              <input type="radio" name="type" value="개인">
+              <span class="c-check__txt">개인</span>
+            </label>
+
+            <label class="c-check">
+              <input type="radio" name="type" value="팀">
+              <span class="c-check__txt">팀</span>
+            </label>
+          </div>
+
+        </div>
+
+        <!-- 모바일용 -->
+        <div class="filter-mobile mb" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1200"
+         data-aos-delay="300"  data-aos-easing="ease-out-cubic">
+
+          <div class="custom-select">
+            <button type="button" class="custom-select__btn">
+              ALL
+            </button>
+
+            <ul class="custom-select__list">
+              <li data-value="all">ALL</li>
+              <li data-value="css">CSS</li>
+              <li data-value="scss">SCSS</li>
+              <li data-value="js">JavaScript</li>
+              <li data-value="react">React</li>
+              <li data-value="responsive">반응형</li>
+              <li data-value="개인">개인</li>
+              <li data-value="팀">팀</li>
+            </ul>
+
+          </div>
+
+        </div>
+
+        <div class="project-grid"></div>
+      </div>
+
+      <div class="popup">
+
+        <div class="popup-inner">
+          <span class="close">&times;</span>
+          <h3 class="popup-title">${data.title}</h3>
+          <div class="popup-wrap">
+
+            <img src="${data.img}" class="scroll-img" alt="${data.title}">
+
+
+            <div class="popup-text">
+              <div class="desc-wrap">
+                <h4>프로젝트 설명</h4>
+                <p>${data.description}</p>
+              </div>
+              <div class="desc-wrap">
+                <h4>기술 스택</h4>
+
+              </div>
+              <div class="desc-wrap">
+                <h4>프로젝트</h4>
+                <p>${data.type}</p>
+              </div>
+              <div class="desc-wrap">
+                <h4>기간</h4>
+                <p>${data.period}</p>
+              </div>
+
+              <div class="popup-btn-wrap">
+                <button><a href="#none" target="_blank"></a>기획서 보기</button>
+                <button><a href="#none" target="_blank"></a>사이트 바로가기</button>
+                <button><a href="#none" target="_blank"></a>Git Hub</button>
+                <button><a href="#none" target="_blank"></a>Figma</button>
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+
+
+        </div>
+        <!--  -->
+      </div>
+
+
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <div class="inner ">
+        <div class="contact-wrap" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1200"
+         data-aos-delay="800"  data-aos-easing="ease-out-cubic">
+          <h3 class="section-title">CONTACT</h3>
+          <div>감사합니다</div>
+          <div>더 궁금한 점이 있으시다면 연락주세요</div>
+          <div>
+            새로운 기회를 기다리고 있습니다
+            <svg width="31" height="33" viewBox="0 0 31 33" fill="none" class="emoji">
+              <path d="M7.01243 10.1668C6.63482 7.37962 7.21328 4.01355 7.37081 1.5" stroke="black" stroke-opacity="0.9"
+                stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M23.0781 9.83298C23.1136 7.19943 23.146 4.58256 23.257 1.9541" stroke="black"
+                stroke-opacity="0.9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M1.5 26.4066C11.1771 33.6971 21.4129 33.3864 29.4699 24.0151" stroke="black" stroke-opacity="0.9"
+                stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+          </div>
+          <div class="mail-box">
+            <a href="mailto:yellowpado@gmail.com" class="contact-btn">
+              <svg width="50" height="32" viewBox="0 0 50 32" fill="none">
+                <path
+                  d="M1.5 26.0045C2.14995 17.2021 2.14995 9.61429 1.5 3.24072C30.4917 1.32596 45.751 0.99085 47.2777 2.23539C48.5367 3.26298 48.0556 29.6282 46.5837 29.6282C33.3199 29.6282 18.753 28.9068 5.56571 30.5"
+                  stroke="black" stroke-opacity="0.9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M3.2168 3.90921C29.9594 20.6534 20.4744 19.4378 45.6195 3.65576" stroke="black"
+                  stroke-opacity="0.9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                <path opacity="0.503384" d="M19.1764 13.9307C14.0757 16.7333 11.1411 22.6509 6.55078 26.0042"
+                  stroke="black" stroke-opacity="0.9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                <path opacity="0.503384" d="M31.5645 13.9312C35.3472 17.483 39.6563 19.9681 43.7135 24.4633"
+                  stroke="black" stroke-opacity="0.9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <span>메일 보내기</span></a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+  </main>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script src="js/data.js"></script>
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>

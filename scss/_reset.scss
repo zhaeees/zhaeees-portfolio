@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Pinkfong Baby Shark';
+  src: url('./fonts/Pinkfong-Baby-Shark-Font_Bold.woff2') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+};
+@font-face {
+  font-family: 'Pinkfong Baby Shark';
+  src: url('./fonts/Pinkfong-Baby-Shark-Font_Light.woff2') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+};
+@font-face {
+  font-family: 'Pinkfong Baby Shark';
+  src: url('./fonts//Pinkfong-Baby-Shark-Font_Regular.woff2') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+};
+@import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE.woff2');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Pinkfong Baby Shark';
+  color: $c-main-text;
+  background: #F1F2ED;
+}
+
+a{
+  text-decoration: none;
+  color: $c-main-text;
+}
+ul, li{
+  list-style: none;
+  color: $c-main-text;
+}
+
+.inner{
+  @include inner;
+}
+
+.section-title{
+  @include section-title;
+  color: $c-main;
+}
+
+p{
+  font-family: $ff-sweet;
+  font-weight: 400;
+}
+
+button{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.more-btn{
+  @include more-btn;
+}
+
+section {
+  scroll-margin-top: 15vh;
+  @media (max-width: $mobile) {
+     scroll-margin-top: 10vh
+  }
+}

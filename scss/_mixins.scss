@@ -1,0 +1,32 @@
+@mixin section-title{
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  @media (min-width: 768px) and (max-width: $tablet){
+    font-size: 40px;
+  }
+  @media (min-width: 360px) and (max-width: $mobile)  {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+@mixin more-btn{
+  font-weight: 600;
+  font-size: 20px;
+  font-family: $ff-shak;
+}
+
+@mixin inner{
+  width: $inner;
+  margin: auto;
+  @media (min-width: 768px) and (max-width: $tablet){
+    width: 90%;
+  }
+  @media (max-width: $mobile){
+    width: 90%;
+  }
+
+}
+
+
