@@ -11,7 +11,7 @@
   font-style: normal;
 };
 @font-face {
-  font-family: 'Pinkfong Baby Shark' -apple-system, system-ui, sans-serif;;
+  font-family: 'Pinkfong Baby Shark';
   src: url('./fonts//Pinkfong-Baby-Shark-Font_Regular.woff2') format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -35,7 +35,15 @@ body {
 a{
   text-decoration: none;
   color: $c-main-text;
+  -webkit-text-fill-color: inherit;
 }
+
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
 ul, li{
   list-style: none;
   color: $c-main-text;
@@ -70,5 +78,4 @@ section {
   @media (max-width: $mobile) {
      scroll-margin-top: 10vh
   }
-
 }
