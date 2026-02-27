@@ -43,6 +43,16 @@ a:hover,
 a:active {
   color: inherit;
 }
+/* iOS 자동 링크(전화/이메일 등) 파랑 제거 */
+a[x-apple-data-detectors],
+a[x-apple-data-detectors]:link,
+a[x-apple-data-detectors]:visited,
+a[x-apple-data-detectors]:hover,
+a[x-apple-data-detectors]:active {
+  color: $c-main-text !important;
+  -webkit-text-fill-color: $c-main-text !important;
+  text-decoration: none !important;
+}
 
 ul, li{
   list-style: none;
@@ -80,3 +90,4 @@ section {
   }
 
 }
+
