@@ -1,19 +1,19 @@
 @font-face {
   font-family: 'Pinkfong Baby Shark';
-  src: url('./fonts/Pinkfong-Baby-Shark-Font_Bold.woff2') format("woff2");
-  font-weight: 700;
+  src: url('./fonts/SpoqaHanSansNeo-Bold.woff2') format("woff2");
+  font-weight: bold;
   font-style: normal;
 };
 @font-face {
   font-family: 'Pinkfong Baby Shark';
-  src: url('./fonts/Pinkfong-Baby-Shark-Font_Light.woff2') format("woff2");
-  font-weight: 300;
+  src: url('./fonts/SpoqaHanSansNeo-Medium.woff2') format("woff2");
+  font-weight: lighter;
   font-style: normal;
 };
 @font-face {
   font-family: 'Pinkfong Baby Shark';
-  src: url('./fonts//Pinkfong-Baby-Shark-Font_Regular.woff2') format("woff2");
-  font-weight: 500;
+  src: url('./fonts//SpoqaHanSansNeo-Regular.woff2') format("woff2");
+  font-weight: normal;
   font-style: normal;
 };
 @import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE.woff2');
@@ -27,7 +27,7 @@
 }
 
 body {
-  font-family: 'Pinkfong Baby Shark'ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji");;
+  font-family: 'Pinkfong Baby Shark';
   color: $c-main-text;
   background: #F1F2ED;
 }
@@ -35,23 +35,13 @@ body {
 a{
   text-decoration: none;
   color: $c-main-text;
-  -webkit-text-fill-color: $c-main-text;
+  -webkit-text-fill-color: inherit;
 }
 
 a:visited,
 a:hover,
 a:active {
   color: inherit;
-}
-/* iOS 자동 링크(전화/이메일 등) 파랑 제거 */
-a[x-apple-data-detectors],
-a[x-apple-data-detectors]:link,
-a[x-apple-data-detectors]:visited,
-a[x-apple-data-detectors]:hover,
-a[x-apple-data-detectors]:active {
-  color: $c-main-text !important;
-  -webkit-text-fill-color: $c-main-text !important;
-  text-decoration: none !important;
 }
 
 ul, li{
@@ -88,9 +78,4 @@ section {
   @media (max-width: $mobile) {
      scroll-margin-top: 10vh
   }
-
 }
-
-
-
-
