@@ -522,7 +522,8 @@ section {
   background: #fff;
   position: relative;
   overflow: hidden;
-  z-index: -1;
+  z-index: 1;
+  position: relative;
 }
 .projects .inner .project-grid .project-card .project-thumb img {
   width: 100%;
@@ -922,11 +923,17 @@ section {
   .projects {
     margin-bottom: 100px;
   }
+  .projects .inner {
+    position: relative;
+    overflow: visible;
+  }
   .projects .inner .filter-checks {
     display: none;
   }
   .projects .inner .filter-mobile {
     margin-bottom: 10px;
+    position: relative;
+    z-index: 50;
     /* 커스텀 select */
   }
   .projects .inner .filter-mobile .custom-select {
@@ -965,7 +972,7 @@ section {
     max-height: 240px;
     overflow-y: auto;
     display: none;
-    z-index: 1000000;
+    z-index: 100;
   }
   .projects .inner .filter-mobile .custom-select.open .custom-select__list {
     display: block;
