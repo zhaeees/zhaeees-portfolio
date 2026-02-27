@@ -35,7 +35,7 @@ body {
 a{
   text-decoration: none;
   color: $c-main-text;
-  -webkit-text-fill-color: inherit;
+  -webkit-text-fill-color: $c-main-text;
 }
 
 a:visited,
@@ -78,4 +78,5 @@ section {
   @media (max-width: $mobile) {
      scroll-margin-top: 10vh
   }
+
 }
