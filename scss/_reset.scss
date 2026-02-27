@@ -11,7 +11,7 @@
   font-style: normal;
 };
 @font-face {
-  font-family: 'Pinkfong Baby Shark';
+  font-family: 'Pinkfong Baby Shark' -apple-system, system-ui, sans-serif;;
   src: url('./fonts//Pinkfong-Baby-Shark-Font_Regular.woff2') format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -70,4 +70,5 @@ section {
   @media (max-width: $mobile) {
      scroll-margin-top: 10vh
   }
+
 }
