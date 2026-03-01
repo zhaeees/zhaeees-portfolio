@@ -26,7 +26,7 @@
     font-family: 'Pinkfong Baby Shark';
     src: url('./fonts/OTPinkfongBabySharkB.woff2') format('woff2'),
         url('./fonts/OTPinkfongBabySharkB.woff') format('woff');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
@@ -99,7 +99,7 @@ ul, li {
 
 .section-title {
   font-size: 48px;
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 50px;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -207,7 +207,7 @@ section {
 .hero .hero-inner .hero-text .hello {
   font-size: 100px;
   font-family: "Pinkfong Baby Shark";
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 2px;
   margin-bottom: 50px;
   color: #3b3b3b;
@@ -437,7 +437,7 @@ section {
 }
 .skills .inner .skills-grid .skill-group .skill-item span {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 700;
 }
 .skills .inner .skills-grid .skill-group .skill-item {
   /* 원형 영역 */
@@ -698,7 +698,7 @@ section {
   border: 1px solid #3b3b3b;
   padding: 10px 20px;
   border-radius: 8px;
-  font-weight: bold;
+  font-weight: 700;
   font-family: "Pinkfong Baby Shark";
   font-size: 20px;
 }
