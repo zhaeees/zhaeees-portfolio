@@ -34,8 +34,8 @@
 
 @font-face {
     font-family: 'Pinkfong Baby Shark';
-    src: url('./fonts/TTPinkfongBabySharkL.woff2') format('woff2'),
-        url('./fonts/TTPinkfongBabySharkL.woff') format('woff');
+    src: url('./fonts/OTPinkfongBabySharkL.woff2') format('woff2'),
+        url('./fonts/OTPinkfongBabySharkL.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -43,8 +43,8 @@
 
 @font-face {
     font-family: 'Pinkfong Baby Shark';
-    src: url('./fonts/TTPinkfongBabySharkR.woff2') format('woff2'),
-        url('./fonts/TTPinkfongBabySharkR.woff') format('woff');
+    src: url('./fonts/OTPinkfongBabySharkR.woff2') format('woff2'),
+        url('./fonts/OTPinkfongBabySharkR.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
