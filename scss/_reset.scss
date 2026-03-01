@@ -1,20 +1,28 @@
 @font-face {
-  font-family: 'Pinkfong Baby Shark';
-  src: url('./fonts/Pinkfong-Baby-shark-Font_Bold.woff2') format("woff2");
-  font-weight: 700;
-  font-style: normal;
+    font-family: 'PinkfongBabyShark';
+    src: url('./fonts/TTPinkfongBabySharkB.woff2') format('woff2'),
+        url('./fonts/TTPinkfongBabySharkB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
+
 @font-face {
-  font-family: 'Pinkfong Baby Shark';
-  src: url('./fonts/Pinkfong-Baby-shark-Font_Light') format("woff2");
-  font-weight: 300;
-  font-style: normal;
+    font-family: 'Pinkfong Baby Shark';
+    src: url('./fonts/TTPinkfongBabySharkL.woff2') format('woff2'),
+        url('./fonts/TTPinkfongBabySharkL.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
+
 @font-face {
-  font-family: 'Pinkfong Baby Shark';
-  src: url('./fonts/Pinkfong-Baby-shark-Font_Regular.woff2') format("woff2");
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'Pinkfong Baby Shark';
+    src: url('./fonts/TTPinkfongBabySharkR.woff2') format('woff2'),
+        url('./fonts/TTPinkfongBabySharkR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -100,6 +108,7 @@ section {
   }
 
 }
+
 
 
 
