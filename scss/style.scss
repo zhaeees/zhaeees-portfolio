@@ -84,7 +84,7 @@
       .hello {
         font-size: 100px;
         font-family: $ff-shak;
-        font-weight: bold;
+        font-weight: 700;
         letter-spacing: 2px;
         margin-bottom: 50px;
         color: $c-main-text;
@@ -380,7 +380,7 @@
 
           span {
             font-size: 24px;
-            font-weight: bold;
+            font-weight: 700;
           }
 
           /* 원형 영역 */
@@ -688,7 +688,7 @@
               border: 1px solid $c-main-text;
               padding: 10px 20px;
               border-radius: 8px;
-              font-weight: bold;
+              font-weight: 700;
               font-family: $ff-shak;
               font-size: 20px;
 
@@ -1251,3 +1251,4 @@
   }
 
 }
+
