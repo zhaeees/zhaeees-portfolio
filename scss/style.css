@@ -99,7 +99,7 @@ ul, li {
 
 .section-title {
   font-size: 48px;
-  font-weight: 700;
+  font-weight: bold;
   margin-bottom: 50px;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -206,7 +206,7 @@ section {
 .hero .hero-inner .hero-text .hello {
   font-size: 100px;
   font-family: "Pinkfong Baby Shark";
-  font-weight: 700;
+  font-weight: bold;
   letter-spacing: 2px;
   margin-bottom: 50px;
   color: #3b3b3b;
@@ -436,7 +436,7 @@ section {
 }
 .skills .inner .skills-grid .skill-group .skill-item span {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: bold;
 }
 .skills .inner .skills-grid .skill-group .skill-item {
   /* 원형 영역 */
@@ -535,7 +535,7 @@ section {
 }
 .projects .inner .filter-checks .c-check__txt {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: normal;
 }
 .projects .inner .filter-checks {
   /* label pseudo를 input 상태로 컨트롤 */
@@ -649,7 +649,7 @@ section {
   right: 5%;
   top: 3%;
   font-size: 75px;
-  font-weight: 300;
+  font-weight: light;
   cursor: pointer;
   transition: 0.3s;
   z-index: 10;
@@ -697,7 +697,7 @@ section {
   border: 1px solid #3b3b3b;
   padding: 10px 20px;
   border-radius: 8px;
-  font-weight: 600;
+  font-weight: bold;
   font-family: "Pinkfong Baby Shark";
   font-size: 20px;
 }
