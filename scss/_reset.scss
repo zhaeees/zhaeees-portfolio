@@ -1,23 +1,29 @@
 @font-face {
-    font-family: 'CookieRun';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
-    font-weight: normal;
-    font-display: swap;
+  font-family: 'Pinkfong Baby Shark';
+  src: url('./fonts/Pinkfong-Baby-shark-Font_Bold.woff2') format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pinkfong Baby Shark';
+  src: url('./fonts/Pinkfong-Baby-shark-Font_Light') format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pinkfong Baby Shark';
+  src: url('./fonts/Pinkfong-Baby-shark-Font_Regular.woff2') format("woff2");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'CookieRun';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Bold00.woff') format('woff');
-    font-weight: 700;
+    font-family: 'Sweet';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+    font-weight: 400;
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'CookieRun';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Black00.woff') format('woff');
-    font-weight: 900;
-    font-display: swap;
-}
 @font-face {
     font-family: 'Sweet';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Medium.woff2') format('woff2');
@@ -94,6 +100,7 @@ section {
   }
 
 }
+
 
 
 
