@@ -684,21 +684,72 @@
             grid-template-columns: auto auto auto auto;
             justify-content: space-between;
 
-            button {
+            
+            .popup-btn {
               border: 1px solid $c-main-text;
               padding: 10px 20px;
               border-radius: 8px;
               font-weight: 700;
               font-family: $ff-shak;
               font-size: 20px;
+              display: inline-flex;
+              justify-content: center;
+              align-items: center;
+              transition: 0.3s;
 
-              &:hover {
-                border-color: $c-main;
 
-                a {
-                  color: $c-main;
+              .twinkle {
+                display: inline-block;
+                width: 20px; // 이미지 크기 조정
+                height: 20px;
+                transform-origin: center;
+                animation: sparkleSpin 0.8s linear infinite;
+              }
+
+
+              @keyframes sparkleSpin {
+                from {
+                  transform: rotate(0deg);
+                }
+
+                to {
+                  transform: rotate(360deg);
                 }
               }
+
+              &:hover {
+                background: $c-main;
+                border-color: $c-main;
+                color: $c-white;
+
+
+                .twinkle {
+                  animation: twinkle 1s infinite ease-in-out;
+                }
+              }
+
+
+
+              @keyframes twinkle {
+                0% {
+                  transform: scale(1);
+                  opacity: 1;
+                  text-shadow: 0 0 0 rgba(255, 215, 0, 0);
+                }
+
+                50% {
+                  transform: scale(1.3);
+                  opacity: 0.7;
+                  text-shadow: 0 0 8px rgba(255, 215, 0, 0.8);
+                }
+
+                100% {
+                  transform: scale(1);
+                  opacity: 1;
+                  text-shadow: 0 0 0 rgba(255, 215, 0, 0);
+                }
+              }
+            }
             }
           }
         }
@@ -1251,4 +1302,5 @@
   }
 
 }
+
 
