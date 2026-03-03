@@ -2,55 +2,44 @@
 /* text-color */
 /* font */
 @font-face {
-    font-family: 'Sweet';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-display: swap;
+  font-family: "Pinkfong Baby Shark";
+  src: url("./fonts/OTPinkfongBabySharkB.woff2") format("woff2"), url("./fonts/OTPinkfongBabySharkB.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
-
 @font-face {
-    font-family: 'Sweet';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Medium.woff2') format('woff2');
-    font-weight: 500;
-    font-display: swap;
+  font-family: "Pinkfong Baby Shark";
+  src: url("./fonts/OTPinkfongBabySharkL.woff2") format("woff2"), url("./fonts/OTPinkfongBabySharkL.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
-
 @font-face {
-    font-family: 'Sweet';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-SemiBold.woff2') format('woff2');
-    font-weight: 600;
-    font-display: swap;
+  font-family: "Pinkfong Baby Shark";
+  src: url("./fonts/OTPinkfongBabySharkR.woff2") format("woff2"), url("./fonts/OTPinkfongBabySharkR.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-
 @font-face {
-    font-family: 'Pinkfong Baby Shark';
-    src: url('/zhaeees-portfolio/fonts/OTPinkfongBabySharkB.woff2') format('woff2'),
-        url('/zhaeees-portfolio/fonts/OTPinkfongBabySharkB.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Sweet";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
 }
-
-
 @font-face {
-    font-family: 'Pinkfong Baby Shark';
-    src: url('/zhaeees-portfolio/fonts/OTPinkfongBabySharkL.woff2') format('woff2'),
-        url('/zhaeees-portfolio/fonts/OTPinkfongBabySharkL.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Sweet";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
 }
-
 @font-face {
-    font-family: 'Pinkfong Baby Shark';
-    src: url('/zhaeees-portfolio/fonts/OTPinkfongBabySharkR.woff2') format('woff2'),
-        url('/zhaeees-portfolio/fonts/OTPinkfongBabySharkR.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Sweet";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
 }
-
-
 * {
   margin: 0;
   padding: 0;
@@ -60,7 +49,7 @@
 }
 
 body {
-  font-family: 'Pinkfong Baby Shark';
+  font-family: "Pinkfong Baby Shark";
   color: #3b3b3b;
   background: #F1F2ED;
 }
@@ -132,7 +121,6 @@ button {
   font-weight: 600;
   font-size: 20px;
   font-family: "Pinkfong Baby Shark";
-  color: #3b3b3b;
 }
 
 section {
@@ -536,7 +524,7 @@ section {
 }
 .projects .inner .filter-checks .c-check__txt {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 500;
 }
 .projects .inner .filter-checks {
   /* label pseudo를 input 상태로 컨트롤 */
@@ -650,7 +638,7 @@ section {
   right: 5%;
   top: 3%;
   font-size: 75px;
-  font-weight: light;
+  font-weight: 300;
   cursor: pointer;
   transition: 0.3s;
   z-index: 10;
@@ -694,19 +682,57 @@ section {
   grid-template-columns: auto auto auto auto;
   justify-content: space-between;
 }
-.projects .popup .popup-inner .popup-wrap .popup-text .popup-btn-wrap button {
+.projects .popup .popup-inner .popup-wrap .popup-text .popup-btn-wrap .popup-btn {
   border: 1px solid #3b3b3b;
   padding: 10px 20px;
   border-radius: 8px;
   font-weight: 700;
   font-family: "Pinkfong Baby Shark";
   font-size: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
 }
-.projects .popup .popup-inner .popup-wrap .popup-text .popup-btn-wrap button:hover {
+.projects .popup .popup-inner .popup-wrap .popup-text .popup-btn-wrap .popup-btn .twinkle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  transform-origin: center;
+  animation: sparkleSpin 0.8s linear infinite;
+}
+@keyframes sparkleSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.projects .popup .popup-inner .popup-wrap .popup-text .popup-btn-wrap .popup-btn:hover {
+  background: #1aaba2;
   border-color: #1aaba2;
+  color: #fff;
 }
-.projects .popup .popup-inner .popup-wrap .popup-text .popup-btn-wrap button:hover a {
-  color: #1aaba2;
+.projects .popup .popup-inner .popup-wrap .popup-text .popup-btn-wrap .popup-btn:hover .twinkle {
+  animation: twinkle 1s infinite ease-in-out;
+}
+@keyframes twinkle {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+    text-shadow: 0 0 0 rgba(255, 215, 0, 0);
+  }
+  50% {
+    transform: scale(1.3);
+    opacity: 0.7;
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.8);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    text-shadow: 0 0 0 rgba(255, 215, 0, 0);
+  }
 }
 
 /* contact */
@@ -991,7 +1017,6 @@ section {
     cursor: pointer;
     position: relative;
     transition: 0.5s;
-    color: #3b3b3b;
   }
   .projects .inner .filter-mobile .custom-select__btn::after {
     content: "\f0dd";
@@ -1000,7 +1025,6 @@ section {
     font-size: 18px;
     position: absolute;
     right: 16px;
-    color: #3b3b3b;
   }
   .projects .inner .filter-mobile .custom-select__list {
     position: absolute;
@@ -1073,7 +1097,7 @@ section {
     grid-template-columns: auto;
     gap: 5px;
   }
-  .projects .popup .popup-inner .popup-wrap .popup-text .popup-btn-wrap button {
+  .projects .popup .popup-inner .popup-wrap .popup-text .popup-btn-wrap .popup-btn {
     font-size: 14px;
   }
   /* contact */
