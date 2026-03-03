@@ -146,8 +146,6 @@
 
 ## 📬 Contact
 
-- Email : (이메일 추가)
-
-- Blog : (블로그 있다면 추가)
+- Email : yellowpado@gmail.com
 
 감사합니다 🙂
