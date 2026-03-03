@@ -10,7 +10,7 @@
 <br>
 
 ## 🔗 Links
-  👉 Portfolio : [<img src="https://github.com/user-attachments/assets/9e106604-7646-4efa-abb9-186d5ed5067a" style="width: 100px">](https://zhaeees.github.io/zhaeees-portfolio/)
+  Portfolio : 바로가기👉  [<img src="https://github.com/user-attachments/assets/9e106604-7646-4efa-abb9-186d5ed5067a" style="width: 100px">](https://zhaeees.github.io/zhaeees-portfolio/)
 
   
 
