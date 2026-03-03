@@ -6,7 +6,7 @@ AOS.init();
 const words = [
   "프론트엔드 개발자",
   "퍼블리셔",
-  "UI/UX 개발자"
+  "UI/UX 디자이너"
 ];
 
 const typingEl = document.getElementById("typing-text");
@@ -366,4 +366,5 @@ function openPopup(data) {
 function closePopup() {
   popup.classList.remove("active");
   document.body.style.overflow = "";
+
 }
