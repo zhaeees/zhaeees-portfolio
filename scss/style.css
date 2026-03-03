@@ -121,6 +121,7 @@ button {
   font-weight: 600;
   font-size: 20px;
   font-family: "Pinkfong Baby Shark";
+  color: #3b3b3b;
 }
 
 section {
@@ -693,6 +694,7 @@ section {
   justify-content: center;
   align-items: center;
   transition: 0.3s;
+  color: #3b3b3b;
 }
 .projects .popup .popup-inner .popup-wrap .popup-text .popup-btn-wrap .popup-btn .twinkle {
   display: inline-block;
@@ -1017,6 +1019,7 @@ section {
     cursor: pointer;
     position: relative;
     transition: 0.5s;
+    color: #3b3b3b;
   }
   .projects .inner .filter-mobile .custom-select__btn::after {
     content: "\f0dd";
@@ -1025,6 +1028,7 @@ section {
     font-size: 18px;
     position: absolute;
     right: 16px;
+    color: #3b3b3b;
   }
   .projects .inner .filter-mobile .custom-select__list {
     position: absolute;

@@ -696,6 +696,7 @@
               justify-content: center;
               align-items: center;
               transition: 0.3s;
+              color: $c-main-text;
 
 
               .twinkle {
@@ -1163,6 +1164,7 @@
           cursor: pointer;
           position: relative;
           transition: 0.5s;
+          color: $c-main-text;
         }
 
         .custom-select__btn::after {
@@ -1172,6 +1174,7 @@
           font-size: 18px;
           position: absolute;
           right: 16px;
+          color: $c-main-text;
         }
 
         .custom-select__list {
