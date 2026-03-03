@@ -306,6 +306,23 @@ function openPopup(data) {
     <img src="${item.icon}" class="stack-img" alt="${item.name}">
   `).join("");
 
+ function createButton(link, text, highlight = false) {
+    if (!link || link.trim() === "") return "";
+
+    return `
+    <a href="${link}" target="_blank" class="popup-btn">
+      ${highlight ? '<img src="./images/star.png" class="twinkle" alt="star">' : ''}
+      ${text}
+    </a>
+  `;
+  }
+
+  // 버튼 HTML 생성
+  const buttonsHTML =
+    createButton(data.site, "사이트 바로가기", true) +
+    createButton(data.figma, "Figma") +
+    createButton(data.github, "Git Hub") +
+    createButton(data.ppt, "기획서 보기");
 
   popup.innerHTML = `
     <div class="popup-inner">
@@ -343,10 +360,7 @@ function openPopup(data) {
           </div>
 
           <div class="popup-btn-wrap">
-            <button><a href="${data.ppt}" target="_blank">기획서 보기</a></button>
-            <button><a href="${data.site}" target="_blank">사이트 바로가기</a></button>
-            <button><a href="${data.github}" target="_blank">Git Hub</a></button>
-            <button><a href="${data.figma}" target="_blank">Figma</a></button>
+            ${buttonsHTML}
           </div>
 
         </div>
@@ -368,3 +382,4 @@ function closePopup() {
   document.body.style.overflow = "";
 
 }
+
