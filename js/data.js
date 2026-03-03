@@ -49,9 +49,9 @@ const projects = [
       { name: "ai", icon: "images/skill-icon13.png" }
     ],
     ppt: "",
-    site: "",
-    github: "",
-    figma: ""
+    site: "https://zhaeees.github.io/Teddy-Tales-shopping-flatform/",
+    github: "https://github.com/zhaeees/Teddy-Tales-shopping-flatform.git",
+    figma: "https://www.figma.com/design/5TejwHGqUooaO45j5rJllI/teddy-tales?node-id=0-1&t=MYuQBHTajYXinqDw-1"
   },
   {
     id: 3,
@@ -81,4 +81,5 @@ const projects = [
     github: "https://github.com/zhaeees/koreanairport-Renewal",
     figma: "https://www.figma.com/design/vWrPlSnYOOtSFLhJWrxSbt/%ED%95%9C%EA%B5%AD%EA%B3%B5%ED%95%AD%EA%B3%B5%EC%82%AC-%EB%A6%AC%EB%89%B4%EC%96%BC_%EC%B5%9C%EC%A7%80%ED%98%9C?node-id=0-1&t=YsvKObIgYOundxuE-1"
   }
+
 ];
