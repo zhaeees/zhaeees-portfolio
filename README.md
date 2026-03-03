@@ -10,8 +10,8 @@
 <br>
 
 ## 🔗 Links
-  👉 Portfolio : (배포 링크 추가)
-  👉 GitHub : (https://github.com/zhaeees)
+  👉 Portfolio : ([사이트보기](https://zhaeees.github.io/zhaeees-portfolio/))
+
   
 
 
