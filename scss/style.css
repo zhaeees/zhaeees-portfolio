@@ -127,7 +127,7 @@ button {
 section {
   scroll-margin-top: 15vh;
 }
-@media (max-width: 767px) {
+@ (max-width: 767px) {
   section {
     scroll-margin-top: 10vh;
   }
@@ -256,7 +256,7 @@ section {
     opacity: 0.5;
   }
 }
-@media (hover: hover) {
+@ (hover: hover) {
   .hero {
     cursor: url("../images/cursor-down.svg") 16 16, auto;
   }
@@ -766,7 +766,7 @@ section {
 }
 
 /* 테블릿 대응 */
-@media (min-width: 768px) and (max-width: 1024px) {
+@ (min-width: 768px) and (max-width: 1024px) {
   /* hero */
   .hero {
     background-position: center;
@@ -849,6 +849,9 @@ section {
   }
   .header .inner .nav ul li {
     font-size: 20px;
+  }
+  .header .inner .nav ul li svg{
+    display: none;
   }
   /* hero */
   .hero {
