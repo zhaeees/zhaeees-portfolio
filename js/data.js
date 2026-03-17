@@ -86,7 +86,7 @@ const projects = [
     subTitle: "도서 탐색 및 추천 서비스",
     summary: "직관적인 도서 탐색을 위한 웹 리디자인",
     description: "본 리뉴얼은 카테고리 구조 단순화와 사용자 탐색 흐름 개선을 통해 도서 검색 및 추천 콘텐츠 접근성을 높이는 것을 목표로 함.",
-    thumb: "images/thumb04.png",
+    thumb: "images/thumb04.svg",
     stack: ["CSS", "react"],
     type: "개인",
     period: "2026.03 ~ 2026.03",
