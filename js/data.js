@@ -89,7 +89,7 @@ const projects = [
     thumb: "images/thumb04.png",
     stack: ["CSS", "react"],
     type: "개인",
-    period: "2025.10 ~ 2025.11",
+    period: "2026.03 ~ 2026.03",
     tags: ["css", "react", "responsive", "recent"],
     img: "images/project-img04.svg",
      stack: [
