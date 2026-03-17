@@ -102,7 +102,7 @@ const projects = [
       { name: "figma", icon: "images/skill-icon11.png" },
       { name: "ai", icon: "images/skill-icon13.png" }
     ],
-    site: "book-store0317.netlify.app",
+    site: "https://book-store0317.netlify.app",
     github: "https://github.com/zhaeees/bookStore.git",
   },
 
