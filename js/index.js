@@ -264,8 +264,9 @@ document.addEventListener("DOMContentLoaded", () => {
 // 카드
 const grid = document.querySelector(".project-grid");
 const popup = document.querySelector(".popup");
+const sortedProjects = [...projects].sort((a, b) => b.id - a.id);
 
-render(projects);
+render(sortedProjects);
 
 function render(data) {
   grid.innerHTML = data.map(item => `
@@ -382,4 +383,3 @@ function closePopup() {
   document.body.style.overflow = "";
 
 }
-
