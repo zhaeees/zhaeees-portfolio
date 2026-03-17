@@ -1,6 +1,6 @@
 const projects = [
   {
-    id: 1,
+    id: 3,
     title: "한국닌텐도",
     subTitle: "한국닌텐도 소개 및 판매",
     summary: "구조 재설계 UI/UX 프로젝트",
@@ -54,7 +54,7 @@ const projects = [
     figma: "https://www.figma.com/design/5TejwHGqUooaO45j5rJllI/teddy-tales?node-id=0-1&t=MYuQBHTajYXinqDw-1"
   },
   {
-    id: 3,
+    id: 1,
     title: "한국공항공사",
     subTitle: "공항안내 및 항공사 소개",
     summary: "직관적인 정보 전달을 위한 웹 리디자인",
